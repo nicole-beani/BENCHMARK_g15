@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+html{
+  background: #ffffff;
+background: -moz-radial-gradient(center, #a3eeff 0%, #FFFFFF 100%, #77a6db 100%);
+background: -webkit-radial-gradient(center, #a3eeff 0%, #FFFFFF 100%, #77a6db 100%);
+background: radial-gradient(ellipse at center,#a3eeff 0%, #FFFFFF 100%, #77a6db 100%);
+}
+
+body{background: #ffffff;
+  background: -moz-radial-gradient(center, #a3eeff 0%, #FFFFFF 100%, #77a6db 100%);
+  background: -webkit-radial-gradient(center, #a3eeff 0%, #FFFFFF 100%, #77a6db 100%);
+  background: radial-gradient(ellipse at center,#a3eeff 0%, #FFFFFF 100%, #77a6db 100%);}

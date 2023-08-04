@@ -1,0 +1,23 @@
+<div class="d-flex justify-content-center align-items-center">
+  <h1 class="mt-4 pb-3">City Search</h1>
+  <form (ngSubmit)="onSearch()">
+    <input
+      type="text"
+      [(ngModel)]="cityName"
+      name="cityName"
+      placeholder="Enter city name"
+      class="bg-primary bg-opacity-10 border border-primary border-start-0 rounded-end ms-5 me-2 p-2"
+    />
+    <button
+      type="submit"
+      class="bg-opacity-10 bg-primary border border-primary m-2 rounded-end rounded-start p-2"
+    >
+      Search
+    </button>
+  </form>
+  <div *ngIf="weatherData">
+    <h2>Weather in {{ weatherData.name }}</h2>
+    <p>Temperature: {{ weatherData.main.temp }}°C</p>
+    <p>Weather: {{ weatherData.weather[0].main }}</p>
+  </div>
+</div>

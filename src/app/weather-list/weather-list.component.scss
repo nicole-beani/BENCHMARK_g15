@@ -1,0 +1,29 @@
+.card {
+  width: 300px;
+  margin-top: 20px;
+  border: 4px inset rgba(101,254,255,0.68);
+border-radius: 40px 40px 0px 0px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+background: -moz-radial-gradient(center, #FFFFFF 0%, #2CABFF 0%, #FFFFFF 100%);
+background: -webkit-radial-gradient(center, #FFFFFF 0%, #2CABFF 0%, #FFFFFF 100%);
+background: radial-gradient(ellipse at center, #FFFFFF 0%, #2CABFF 0%, #FFFFFF 100%);
+color: black;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+img{
+  width: 48%;
+}
+
+h5{
+  font-size: 3em !important;
+}

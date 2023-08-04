@@ -1,0 +1,15 @@
+<h1 class="mt-4 ms-4">Suspence</h1>
+<div class="container">
+  <nav>
+    <button type="button" routerLink="/">Weather List</button>
+
+    <button type="button" *ngIf="isAuthenticated()" routerLink="/favorites">
+      Favorites
+    </button>
+
+    <button type="button" *ngIf="!isAuthenticated()" routerLink="/login">
+      Login
+    </button>
+  </nav>
+  <router-outlet></router-outlet>
+</div>
